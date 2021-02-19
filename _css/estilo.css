@@ -1,0 +1,383 @@
+@charset "UTF-8";
+@font-face {
+  font-family: Fontelogo;
+  src:url(../_fonts/HammersmithOne-Regular.ttf);
+}
+
+div#cabecalhoo{
+  background: rgba(0, 0, 0, .20) url(../_imagens/backgroundcabecalho.jpg);
+  margin: -30px -9px -45px -9px;
+  height:  650px;
+  background-repeat: no-repeat;
+  background-size: 1300px; 
+  background-blend-mode: darken;
+  
+    
+   
+    
+
+  
+ }
+
+ div#cabecalhoo h1{
+   font-family:"Open Sans",Helvetica,Arial,sans-serif;
+   font-size: 40px;
+   margin-bottom: 0px;
+   color: white;
+   border-bottom: solid 3px #FCEF4B;
+   display: block;
+   position: relative;
+   top: 200px;
+   left: 80px;
+   width: 568px;
+   
+   
+   
+   
+   
+ }
+
+ #subtitulo{
+   display: block;
+   position: relative;
+   color: white;
+   top: 205px;
+   left: 85px;
+   text-shadow: 1px black;
+
+  
+ }
+   
+   #divBusca {
+    background-color:#ffffff;
+    border:solid 2px;
+    width:300px;
+    height: 28px;
+    display: block;
+    position: absolute;
+    top: 9px;
+    left: 410px;
+    display: none;
+    
+
+    
+
+    
+
+  }
+
+  div#imgbusca img {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 675px;
+    top: 15px;
+    display: none;
+    
+    
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-family: Arial, sans-serif;
+    font-size:  20px;
+    border:none;
+    height:23px;
+    width:293px;
+    padding-top: 5px;
+    
+    
+    
+    
+    
+    
+  }
+      
+
+#txtBusca:focus{
+  border:none
+
+  
+
+  }
+
+
+ div#cabecalhoo h2{
+  padding: 0px 0px 0px 10px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-family: 'Fontelogo', sans-serif;
+  color: #FCEF4B;
+  text-shadow: 1px 1px 1px black;
+ 
+
+}
+ 
+div#cabecalhoo img{
+  padding: 50px 0px 0px 20px; /* GLASS*/
+   
+
+
+
+
+ 
+}
+
+div#imagemcabecalho{        /* Oculos*/
+  
+  position: absolute;
+  top: 70px;       
+  left: 980px;
+  
+
+}
+
+
+
+
+header#Cabeçalho-artigo h3{
+
+ background-image:none;
+ background-color: #FCEF4B;
+ font-size: 15px;
+ width: 200PX;
+ border-radius: 5px;
+ padding: 2px;
+ padding-left: 5px;
+}
+
+header#Cabeçalho-artigo h2{
+    margin-bottom: 0px;
+    color: black
+
+}
+
+header#Cabeçalho-artigo h4{
+
+  margin-top: 3px;
+
+}
+
+.data {
+  font-size: 13px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section#interface{
+margin: 0px -10px -50px -10px;
+background-color: white;
+padding: 10px 10px 10px 80px;
+box-shadow: 0px 0px 5px;
+border-radius: 1px;
+
+}
+
+
+body{
+  font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  color: #4D4D4D;
+  
+  padding: 0px;  
+  margin-bottom: -300px ;
+  font-size: 17px;
+  
+  
+}
+
+table {
+  border-spacing: 0px;
+  
+  
+}
+
+table td{
+  padding: 25px;
+  text-align: center;
+  
+ 
+
+}
+
+table td.ce {
+   background-color: #FCEF4B;
+   color: black;
+   font-weight: bold;
+}
+   
+table caption {
+
+color: rgb(20, 20, 20);
+font-size: 15px;
+
+   
+  
+}
+article#Noticia-Principal h3 {
+    
+    width: 480px;
+    border-radius: 5px;
+    padding: 3px 0px 0px 10px;
+    font-size: 30px;
+    
+    
+
+    
+    }
+    
+    article#novidades h4 {
+      background-image: linear-gradient(to right, #FCEF4B, #FCEF4B); height: 35px;
+      padding: 10px;
+      margin-bottom: -10px;
+      margin-top: -17px;
+      font-size: 25px;
+      color: #4D4D4D;;
+      font-family: Arial, sans-serif;
+      
+    
+    }
+      article#novidades{
+        background-color:gainsboro; width: 480px;
+        margin: -1530px 0px 0px 700px;
+        position: absolute;
+        box-shadow: 0px 0px 2px;
+        padding: 0px, 10px, 10px 10px;
+        
+       
+        
+        
+      }
+      
+      #media {
+        background-color:rgb(255, 255, 255);
+      }
+      
+      video.video1{
+        box-shadow: 0px 0px 2px;
+      }
+        
+      .video2{
+
+        border: none;
+        border-color: black;
+           
+           
+      }
+     
+     h2 {
+       color: gray;
+       
+     }
+
+    h2#faixa{
+      background-color: rgb(83,83,83);
+      color: white;
+      margin-top: 0px;
+      
+    }
+    
+     #imagens img {
+         
+        
+        width: 530px;
+        height: 250px;
+        
+    }
+     /* menu de navegação do site */
+   nav#menu {
+     display: block;  /* pro menu virar um bloco*/
+
+   }
+   
+    nav#menu ul {
+    list-style: none;  /* tira os marcadores da lista*/
+    position: absolute;  /* eu posso mexer o ul pelo site todo*/
+    top: -15px;  /* -17 é pro topo do menu ficar sem espaço, assim ficando grudadinho com o topo */
+    left: 680px;  /* pro menu ficar na direita do site */
+  }
+
+  
+  nav#menu li{
+    text-transform; /* deixa as letras grandes*/
+    display: inline-block;  /* deixa as letras alinhadas*/  
+    padding: 8px;  /* pras caixinhas do menu ficarem com um espaço maiorzinho entre elas */
+    margin: 3px;  /* pras caixinhas ficarem mais distantes entre elas */
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    transition: 0.1s;
+    margin-top: 20px;
+    text-shadow: black;
+    
+  
+  }
+
+    nav#menu li:hover{
+      border-bottom: 5px solid #FCEF4B;
+
+      
+      
+      
+
+    }
+  
+   
+  nav#menu a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+    }
+    
+
+    nav#menu h1{
+      display: none;
+    }
+
+    
+      a
+      {
+        
+        text-decoration: none;
+        color: #4b66fc;
+      }
+    
+      a:hover{
+        text-decoration:underline
+      }
+      
+      
+      footer{
+        margin-bottom: 0px;
+        margin-top: 50px;
+        margin-left: -10px;
+        background-color: #FCEF4B; width: 1280px; height: 40px;
+        box-shadow: 1px 1px 4px black;
+        padding: 5px;
+
+        
+        
+       
+      }
+
+      footer h4{
+        color: rgb(0, 0, 0);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        bottom: 55px;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        
+      }
+
+     .justificado {
+      text-align:justify;
+      text-justify: inter-word;
+     }
+        
+     footer a{
+       color: blue;
+     }
+        
+        
+      
+
